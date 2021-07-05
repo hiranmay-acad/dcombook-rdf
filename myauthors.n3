@@ -4,7 +4,7 @@
 @prefix sc:   <https://schema.org/> .
 
 <#Author>
-   rdf:type sc:Person .
+   rdfs:subClassOf sc:Person .
 
 <#Author1>
    rdf:type       <#Author> ;
@@ -17,5 +17,3 @@
    rdfs:label     "HG" ;
    sc:name        "Hiranmay Ghosh" ;
    sc:affiliation <#IIT-Jodhpur> .
-
-
