@@ -1,16 +1,17 @@
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc:   <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/> .
+@prefix ma:   <https://github.com/hiranmay-acad/dcombook-rdf/blob/main/myauthors.n3> .
 
 <#Book>
     rdfs:subClassOf dc:BibliographicResource .
 
 <#Book-1>
     rdf:type       <#Book> ;
-    dc:contributor <#Author-1> ,
-                   <#Author-2> ;
+    dc:contributor ma:Author1 ,
+                   ma:Author2 ;
     dc:title       "Distributed Systems" ;
-    dc:publisher   "XYZ Publisher" ;
+    dc:publisher   "IEEE_Wiley Press" ;
     dc:date        "2021" .
 
 
