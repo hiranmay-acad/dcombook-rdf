@@ -6,7 +6,7 @@
 <#Book>
     rdfs:subClassOf dc:BibliographicResource .
 
-<#Book-1>
+<#Book1>
     rdf:type       <#Book> ;
     dc:contributor <#Author1> ,
                    <#Author2> ;
@@ -17,13 +17,13 @@
 <#Author>
    rdfs:subClassOf sc:Person .
 
-<#Author-1>
+<#Author1>
    rdf:type       <#Author> ;
    rdfs:label     "RKG" ;
    sc:name        "Ratan Ghosh" ;
    sc:affiliation <#IIT-Bhilai> .
 
-<#Author-2>
+<#Author2>
    rdf:type       <#Author> ;
    rdfs:label     "HG" ;
    sc:name        "Hiranmay Ghosh" ;
