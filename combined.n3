@@ -4,7 +4,6 @@
 @prefix dc:   <http://purl.org/dc/terms/> .
 @prefix sc:   <https://schema.org/> .
 
-
 <#Book>
     rdfs:subClassOf dc:BibliographicResource .
 
