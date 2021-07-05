@@ -9,13 +9,13 @@
 <#Author-1>
    rdf:type       <#Author> ;
    rdfs:label     "RKG" ;
-   sc:name        "Ratan Ghosh" ;
-   sc:affiliation <#IIT-Bhilai> .
+#   sc:name        "Ratan Ghosh" ;
+#   sc:affiliation <#IIT-Bhilai> .
 
 <#Author-2>
    rdf:type       <#Author> ;
    rdfs:label     "HG" ;
-   sc:name        "Hiranmay Ghosh" ;
-   sc:affiliation <#IIT-Jodhpur> .
+ #  sc:name        "Hiranmay Ghosh" ;
+ # sc:affiliation <#IIT-Jodhpur> .
 
 
