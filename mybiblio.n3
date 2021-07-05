@@ -4,7 +4,7 @@
 @prefix ma:   <https://github.com/hiranmay-acad/dcombook-rdf/blob/main/myauthors.n3> .
 
 <#Book>
-   rdfs:subClassOf dc:BibliographicResource .
+     rdfs:subClassOf dc:BibliographicResource.
 
 <#Book-1>
     rdf:type       <#Book> ;
