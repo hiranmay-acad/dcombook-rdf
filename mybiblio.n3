@@ -3,8 +3,7 @@
 @prefix dc:   <http://purl.org/dc/terms/> .
 @prefix ma:   <http://github.com/hiranmay-acad/dcombook-rdf/blob/main/myauthors.n3#> .
 
-<#Book>
-     rdfs:subClassOf dc:BibliographicResource .
+<#Book> rdfs:subClassOf dc:BibliographicResource .
 
 <#Book-1>  
     rdf:type       <#Book> ;
