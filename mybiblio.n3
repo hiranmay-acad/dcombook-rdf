@@ -6,7 +6,7 @@
 <#Book> 
      rdfs:subClassOf dc:BibliographicResource .
 
-<#Book-1>  
+<#Book1>  
     rdf:type       <#Book> ;
     dc:contributor ma:Author1 ,
                    ma:Author2 ;
