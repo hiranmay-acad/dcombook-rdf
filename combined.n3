@@ -8,8 +8,8 @@
 
 <#Book-1>
     rdf:type       <#Book> ;
-    dc:contributor ma:Author1 ,
-                   ma:Author2 ;
+    dc:contributor <#Author1> ,
+                   <#Author2> ;
     dc:title       "Distributed Systems" ;
     dc:publisher   "IEEE_Wiley Press" ;
     dc:date        "2021" .
