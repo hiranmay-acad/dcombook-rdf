@@ -4,7 +4,7 @@
 @prefix sc:   <https://schema.org/> .
 
 <#Author>
-   rdfs:subClassOf sc:Person .
+   rdf:type sc:Person .
 
 <#Author-1>
    rdf:type       <#Author> ;
