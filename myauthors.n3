@@ -1,0 +1,21 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:   <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/> .
+@prefix sc:   <https://schema.org/> .
+
+<#Author>
+   rdfs:subClassOf sc:Person .
+
+<#Author-1>
+   rdf:type       <#Author> ;
+   rdfs:label     "RKG" ;
+   sc:name        "Ratan Ghosh" ;
+   sc:affiliation <#IIT-Bhilai> .
+
+<#Author-2>
+   rdf:type       <#Author> ;
+   rdfs:label     "HG" ;
+   sc:name        "Hiranmay Ghosh" ;
+   sc:affiliation <#IIT-Jodhpur> .
+
+
