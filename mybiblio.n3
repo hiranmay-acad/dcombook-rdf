@@ -7,8 +7,8 @@
 
 <#Book1>  
     rdf:type       <#Book> ;
-    dc:contributor <http://raw.githubusercontent.com/hiranmay-acad/dcombook-rdf/main/Author1.n3#> ;
-                   <http://raw.githubusercontent.com/hiranmay-acad/dcombook-rdf/main/Author2.n3#> .
+    dc:contributor <http://raw.githubusercontent.com/hiranmay-acad/dcombook-rdf/main/author1.n3> ;
+                   <http://raw.githubusercontent.com/hiranmay-acad/dcombook-rdf/main/author2.n3> .
     dc:title       "Distributed Systems" ;
     dc:publisher   "IEEE_Wiley Press" ;
     dc:date        "2021" .
