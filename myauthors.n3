@@ -10,10 +10,10 @@
    rdf:type       <#Author> ;
    rdfs:label     "RKG" ;
    sc:name        "Ratan Ghosh" ;
-   sc:affiliation <#IIT-Bhilai> .
+   sc:affiliation "IIT-Bhilai" .
 
 <#Author2>
    rdf:type       <#Author> ;
    rdfs:label     "HG" ;
    sc:name        "Hiranmay Ghosh" ;
-   sc:affiliation <#IIT-Jodhpur> .
+   sc:affiliation "IIT-Jodhpur" .
