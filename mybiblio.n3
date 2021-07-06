@@ -1,15 +1,14 @@
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc:   <http://purl.org/dc/terms/> .
-@prefix ma:   <https://raw.githubusercontent.com/hiranmay-acad/dcombook-rdf/main/myauthors.n3#> .
 
 <#Book> 
      rdfs:subClassOf dc:BibliographicResource .
 
 <#Book1>  
     rdf:type       <#Book> ;
-    dc:contributor ma:Author1 ,
-                   ma:Author2 ;
+    dc:contributor <https://raw.githubusercontent.com/hiranmay-acad/dcombook-rdf/main/Author1.n3#> .
+                   <https://raw.githubusercontent.com/hiranmay-acad/dcombook-rdf/main/Author2.n3#> ;
     dc:title       "Distributed Systems" ;
     dc:publisher   "IEEE_Wiley Press" ;
     dc:date        "2021" .
