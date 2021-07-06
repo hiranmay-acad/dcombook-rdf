@@ -3,10 +3,7 @@
 @prefix dc:   <http://purl.org/dc/terms/> .
 @prefix sc:   <https://schema.org/> .
 
-<#Author>
-   rdfs:subClassOf sc:Person .
-
-<#Author1>
+<>
    rdf:type       <#Author> ;
    rdfs:label     "RKG" ;
    sc:name        "Ratan Ghosh" ;
